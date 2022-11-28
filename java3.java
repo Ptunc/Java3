@@ -18,9 +18,8 @@ public class java3 {
 
         float u = (a+b+c) / 2;
         float alan = u*(u-a)*(u-b)*(u-c);
-        alan *= alan;
         System.out.println("ücgenin alanı: "+ alan + " cm");
-
+        input.close();
 
     }
 
